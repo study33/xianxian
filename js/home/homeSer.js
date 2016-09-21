@@ -15,11 +15,11 @@ freshSer.service('homeServices', ['$http', 'global', function($http, global){
 	this.getBannerListData = function(successCallback, errorCallback){
 		$http.get(global.getGolbalPath()+"/data/home/homeBanners.json")
 		.success(function(data){
-			console.log(data.data.banners);
-			var newData = data.data.banners.map(function(item, index){
+			console.log(data.bannerInfo);
+			var newData = data.bannerInfo.map(function(item, index){
 				var newItem = {};
 				newItem.id = item.id;
-				newItem.imgUrl = item.image_url;
+				newItem.imageUrl = item.imageUrl;
 				return newItem;
 			});
 			successCallback(newData);

@@ -7,8 +7,11 @@
 .bar.home-subheader{
 	top: 40px;
 }
+.bar.bar-assertive .title{
+    color:#444!important;
+}
 #home{
-	top: 0;
+    top:84px;
 	bottom: 0;
 }
 .home-subheader ion-scroll{
@@ -58,4 +61,15 @@
 .cblanImg>img{
     width: 100%;
     height: 100%;
+}
+/*banners*/
+.banner{
+}
+#home img{
+	display: block;
+	width: 100%;
+}
+.slider-pager .slider-pager-page{
+    font-size: 10px!important;
+    color: #fff!important;
 }

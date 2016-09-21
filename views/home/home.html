@@ -1,15 +1,15 @@
 <ion-view title="首页">
 	<ion-nav-buttons side="left">
-		<button class="button icon ion-navicon button-clear" ng-click="toggleLeft()"></button>
+		<button class="button icon ion-navicon button-clear button-dark" ng-click="toggleLeft()"></button>
 	</ion-nav-buttons>
 	<ion-nav-title>
 		<div class="home-nav-wrapper">
-			<span>FRESHFRESH</span>
+			<span class="title">FRESHFRESH</span>
 		</div>
 	</ion-nav-title>
 	<ion-nav-buttons side="right">
-		<button class="button button-clear icon ion-ios-search"></button>
-		<button class="button button-clear icon ion-ios-cart-outline" ng-click="toggleRight()"></button>
+		<button class="button button-clear icon ion-ios-search button-dark"></button>
+		<button class="button button-clear icon ion-ios-cart-outline button-dark" ng-click="toggleRight()"></button>
 	</ion-nav-buttons>
 
 	<div class="bar home-subheader">
@@ -19,7 +19,14 @@
 	</div>
 	<ion-side-menus>
   <!-- 中间内容 -->
-  <ion-side-menu-content>
+  <ion-side-menu-content id="home" class="has-subheader">
+	  <div class="banners">
+		  <ion-slide-box does-continue="true" auto-play="true" slide-interval="3000" delegate-handle="banner">
+			  <ion-slide class="banner" ng-repeat="item in banners">
+				  <img ng-src="{{item.imageUrl}}" />
+			  </ion-slide>
+		  </ion-slide-box>
+	  </div>
   </ion-side-menu-content>
 
   <!-- 左侧菜单 -->
@@ -41,7 +48,4 @@
   <ion-side-menu side="right">
   </ion-side-menu>
 </ion-side-menus>
-	<ion-content>
-
-  </ion-content>
 </ion-view>
