@@ -1,4 +1,4 @@
-var freshfresh = angular.module('yiguo',['ionic','fresh-service']);
+var freshfresh = angular.module('xianxian',['ionic','fresh-service']);
 
 freshfresh.config(['$stateProvider', '$urlRouterProvider', '$ionicConfigProvider', 'globalProvider', function($stateProvider, $urlRouterProvider, $ionicConfigProvider, globalProvider){
 	$stateProvider
@@ -11,7 +11,7 @@ freshfresh.config(['$stateProvider', '$urlRouterProvider', '$ionicConfigProvider
 		views: {
 			'home': {
 				templateUrl: 'views/home/home.html',
-				// controller: 'homeCtrl'
+				controller: 'homeCtrl'
 			}
 		}
 	})
@@ -55,7 +55,7 @@ freshfresh.config(['$stateProvider', '$urlRouterProvider', '$ionicConfigProvider
 	$ionicConfigProvider.platform.ios.backButton.previousTitleText('');
 	$ionicConfigProvider.platform.android.backButton.previousTitleText('');
 
-	globalProvider.globalPath = '/freshfresh';
+	globalProvider.globalPath = '/xianxian';
 }]);
 
 var freshSer = angular.module('fresh-service', [ ]);

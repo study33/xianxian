@@ -1,0 +1,106 @@
+{
+    "categoryTreeInfo": [
+        {
+            "categoryID": 1,
+            "name": "推荐"
+        },
+        {
+            "categoryID": 12,
+            "name": "水果",
+            "level": 1,
+            "parentID": 9,
+            "imageUrl": "http://qiniu.freshfresh.com/ff_app_3_0_1462864337252.png"
+        },
+        {
+            "categoryID": 108,
+            "name": "礼品",
+            "level": 1,
+            "parentID": 9,
+            "imageUrl": "http://qiniu.freshfresh.com/ff_app_3_0_1462864471110.png"
+        },
+        {
+            "categoryID": 19,
+            "name": "蛋奶",
+            "level": 1,
+            "parentID": 9,
+            "imageUrl": "http://qiniu.freshfresh.com/ff_app_3_0_1462864410881.png"
+        },
+        {
+            "categoryID": 13,
+            "name": "肉类",
+            "level": 1,
+            "parentID": 9,
+            "imageUrl": "http://qiniu.freshfresh.com/ff_app_3_0_1462864376471.png"
+        },
+        {
+            "categoryID": 17,
+            "name": "海鲜",
+            "level": 1,
+            "parentID": 9,
+            "imageUrl": "http://qiniu.freshfresh.com/ff_app_3_0_1462864359894.png"
+        },
+        {
+            "categoryID": 223,
+            "name": "冰激凌",
+            "level": 1,
+            "parentID": 9,
+            "imageUrl": "http://qiniu.freshfresh.com/ff_app_3_0_1469182792349.png"
+        },
+        {
+            "categoryID": 11,
+            "name": "蔬菜",
+            "level": 1,
+            "parentID": 9,
+            "imageUrl": "http://qiniu.freshfresh.com/ff_app_3_0_1462864349432.png"
+        },
+        {
+            "categoryID": 18,
+            "name": "速食",
+            "level": 1,
+            "parentID": 9,
+            "imageUrl": "http://qiniu.freshfresh.com/ff_app_3_0_1462864395165.png"
+        },
+        {
+            "categoryID": 20,
+            "name": "零食",
+            "level": 1,
+            "parentID": 9,
+            "imageUrl": "http://qiniu.freshfresh.com/ff_app_3_0_1462864421672.png"
+        },
+        {
+            "categoryID": 21,
+            "name": "酒饮",
+            "level": 1,
+            "parentID": 9,
+            "imageUrl": "http://qiniu.freshfresh.com/ff_app_3_0_1462864432956.png"
+        },
+        {
+            "categoryID": 22,
+            "name": "粮油",
+            "level": 1,
+            "parentID": 9,
+            "imageUrl": "http://qiniu.freshfresh.com/ff_app_3_0_1462864442406.png"
+        },
+        {
+            "categoryID": 214,
+            "name": "外卖",
+            "level": 1,
+            "parentID": 9,
+            "imageUrl": "http://qiniu.freshfresh.com/ff_app_3_0_1468576298135.png"
+        },
+        {
+            "categoryID": 216,
+            "name": "保健",
+            "level": 1,
+            "parentID": 9,
+            "imageUrl": "http://qiniu.freshfresh.com/ff_app_3_0_1468576307002.png"
+        },
+        {
+            "categoryID": 99,
+            "name": "家居",
+            "level": 1,
+            "parentID": 9,
+            "imageUrl": "http://qiniu.freshfresh.com/ff_app_3_0_1462864453418.png"
+        }
+    ]
+}
