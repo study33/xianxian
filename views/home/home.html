@@ -18,15 +18,18 @@
 		</ion-scroll>
 	</div>
 	<ion-side-menus>
-  <!-- 中间内容 -->
+  <!-- 内容区 -->
   <ion-side-menu-content id="home" class="has-subheader">
-	  <div class="banners">
-		  <ion-slide-box does-continue="true" auto-play="true" slide-interval="3000" delegate-handle="banner">
-			  <ion-slide class="banner" ng-repeat="item in banners">
-				  <img ng-src="{{item.imageUrl}}" />
-			  </ion-slide>
-		  </ion-slide-box>
-	  </div>
+	  <ion-scroll zooming="true" direction="y">
+		  <ion-refresher pulling-text="Pull to refresh..." on-refresh="doRefresh()"></ion-refresher>
+	 	  <div class="banners">
+	 		  <ion-slide-box does-continue="true" auto-play="true" slide-interval="3000" delegate-handle="banner">
+	 			  <ion-slide class="banner" ng-repeat="item in banners">
+	 				  <img ng-src="{{item.imageUrl}}" />
+	 			  </ion-slide>
+	 		  </ion-slide-box>
+	 	  </div>
+	  </ion-scroll>
   </ion-side-menu-content>
 
   <!-- 左侧菜单 -->
