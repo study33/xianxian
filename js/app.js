@@ -55,7 +55,7 @@ freshfresh.config(['$stateProvider', '$urlRouterProvider', '$ionicConfigProvider
 	$ionicConfigProvider.platform.ios.backButton.previousTitleText('');
 	$ionicConfigProvider.platform.android.backButton.previousTitleText('');
 
-	globalProvider.globalPath = 'xx.consolelog.net';
+	globalProvider.globalPath = '/xianxian';
 }]);
 
 var freshSer = angular.module('fresh-service', [ ]);
